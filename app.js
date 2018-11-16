@@ -368,4 +368,4 @@ client.on("ready", () => {
     console.log("On " + client.guilds.size + " guilds.")
     console.log("With " + client.users.size + " members.")
 });
-client.login(token)
+client.login(process.env.BOT_TOKEN)
